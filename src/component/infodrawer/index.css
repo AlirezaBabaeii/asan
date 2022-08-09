@@ -7,3 +7,36 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 }
+.empt-box{
+    width: 51%;
+    height: 16%;
+    bottom: 20%;
+    top: 31%;
+    border: 5px solid gray;
+    font-size: 26px;
+    border-style: dashed;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: gray;  
+}
+.empt-box::after{
+    content: '...';
+}
+.empt-box::before{
+    content: '...';
+}
+.stock_true{
+    color: rgb(255, 151, 29);
+    font-size: 4rem;
+    border-bottom: 2px solid gray;
+    padding: 2%;
+}
+.stock-true-wapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

@@ -42,13 +42,9 @@ function Floor({stock}:FloorStatus) {
 {FloorList.map(el=>{
   return(
 <div>
-<Button variant="outlined" color="warning" className='btn_floor'>
+<Button variant="outlined" color="warning" className='btn_floor' style={{backgroundColor:'#ff971d' , color:'white'}}>
     Success {el}
   </Button>
-  {/* <hr></hr> */}
-  {/* <div className="e583_4248"> 
-  <span  className="e583_4249">Warning</span>
-  </div> */}
   </div>
   )
 })}
