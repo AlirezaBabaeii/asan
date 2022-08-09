@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffff00",
+        "terminalCursor.foreground": "#ffff00"
+    },
+    "editor.lineHeight": 3,
+    "editor.cursorWidth": 8,
+    "editor.fontFamily": "'Sans Mono', 'monospace', Mono"
+}
